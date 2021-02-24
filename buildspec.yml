@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - ./gradlew assembleRelease
+artifacts:
+  files:
+    - app/build/outputs/apk/release/app-release.apk
